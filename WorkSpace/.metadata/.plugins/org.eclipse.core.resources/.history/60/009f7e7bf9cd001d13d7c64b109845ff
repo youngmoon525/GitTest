@@ -1,0 +1,10 @@
+package pack06_bool;
+
+public class Ex01_Bool {
+	public static void main(String[] args) {
+		//부울형(논리형) : boolean
+		// true , false 만 기억 ▶ 조건식 작성 시 사용.
+		//컴퓨터는 어떠한 판단을 true와 false로만 함.
+		// 컴퓨터에게 어떠한 질문을 할때는 true , false로 답이 나오는것만
+	}
+}

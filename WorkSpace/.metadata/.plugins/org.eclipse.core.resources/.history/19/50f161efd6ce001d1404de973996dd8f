@@ -1,0 +1,7 @@
+
+public class Text09 {
+	public static void main(String[] args) {
+		String value = "3.14";
+		// double형태로 바꿔보기 , int형태로 바꿔보기.
+	}
+}

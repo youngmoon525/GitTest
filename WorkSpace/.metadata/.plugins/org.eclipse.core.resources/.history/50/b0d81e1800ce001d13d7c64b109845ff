@@ -1,0 +1,7 @@
+package pack08_casting;
+
+public class Ex01_Casting {
+	public static void main(String[] args) {
+		int iNum = 10 ; //정수형 변수 a를 초기화 하고 10을 담아둠
+	}
+}

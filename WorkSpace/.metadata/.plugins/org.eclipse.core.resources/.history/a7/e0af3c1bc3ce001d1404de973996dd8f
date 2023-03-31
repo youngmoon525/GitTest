@@ -1,0 +1,6 @@
+
+public class Test06 {
+	public static void main(String[] args) {
+		int korScore , mathScore;//낙타등(카멜,camel):단어연결부를 대문자로
+	}
+}

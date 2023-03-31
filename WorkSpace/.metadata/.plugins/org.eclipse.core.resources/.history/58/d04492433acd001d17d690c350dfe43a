@@ -1,0 +1,23 @@
+package pack01_Variable;
+
+public class Ex03_Variable {
+// ctrl + shift + f == 줄정리
+// ctrl + / == 선택한 행에 대해서 모두 주석 처리.
+	public static void main(String[] args) {
+		int value = 0 ;// 초기화 x 변수는 사용이 불가능.
+		int result = value + 10;//오류발생. x
+		System.out.println(result);
+//		int value = 10;//
+//		int result = value + 10 ;
+		//숫자형 변수들은 사칙연산이 가능하다.
+		//재할당. (변수를 계속 만드는게 아니라 값을 다시 줘서 바꿈)
+		result = 1+1+10;
+		// result에 나머지 사칙연산의 결과를 저장하고 각각
+		//출력해보기. - , * , / 
+		System.out.println(result);
+		result = 5 - 3;
+		System.out.println(result);
+		
+		
+	}
+}
