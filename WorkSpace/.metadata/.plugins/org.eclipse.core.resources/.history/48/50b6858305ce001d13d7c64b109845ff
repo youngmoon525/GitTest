@@ -1,0 +1,14 @@
+package pack08_casting;
+
+public class Ex02_Casting {
+	public static void main(String[] args) {
+		// "12" + 34 = 답 1234 
+		// String + int = 답 DataType String
+		// Why? 문자열 + 어떤값 = 문자열 규칙
+		// 문자열 결합의 법칙 ↑
+		// "1"(String) 다르다 1(숫자) 
+		String sum = "12" + 34;
+		// 어떤 값을 String으로 바꾸는것은 엄청나게 간단하다.
+		String sum2 = ""+1234 ;//어떻게 바꾸면 String이 될까????
+	}
+}

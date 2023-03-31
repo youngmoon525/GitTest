@@ -1,0 +1,7 @@
+import java.util.Scanner;
+
+public class Text09 {
+	public static void main(String[] args) {
+		// double형태로 바꿔보기 , int형태로 바꿔보기.
+	}
+}

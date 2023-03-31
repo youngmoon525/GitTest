@@ -1,0 +1,8 @@
+package pack06_bool;
+
+public class Ex01_Bool {
+	public static void main(String[] args) {
+		//부울형(논리형) : boolean
+		// true , false 만 기억 ▶ 조건식 작성 시 사용.
+	}
+}

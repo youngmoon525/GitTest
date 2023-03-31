@@ -1,0 +1,8 @@
+package pack01_Variable;
+
+public class Ex01_Variable {
+// 내 이니셜에 숫자10을 붙여서 출력되게 해보기
+	public static void main(String[] args) {
+		System.out.println("KYM10");
+	}
+}
