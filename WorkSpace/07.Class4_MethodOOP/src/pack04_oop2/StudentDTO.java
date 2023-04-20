@@ -48,6 +48,9 @@ public class StudentDTO {
 
 	public void setScore1(int score1) {
 		this.score1 = score1;
+		
+		this.sum = this.score1 + this.score2 + this.score3;
+		this.avg = (double) this.sum / 3;
 	}
 
 	public int getScore2() {
@@ -56,6 +59,9 @@ public class StudentDTO {
 
 	public void setScore2(int score2) {
 		this.score2 = score2;
+		
+		this.sum = this.score1 + this.score2 + this.score3;
+		this.avg = (double) this.sum / 3;
 	}
 
 	public int getScore3() {
@@ -64,6 +70,9 @@ public class StudentDTO {
 
 	public void setScore3(int score3) {
 		this.score3 = score3;
+		
+		this.sum = this.score1 + this.score2 + this.score3;
+		this.avg = (double) this.sum / 3;
 	}
 
 	public int getSum() {
