@@ -2,6 +2,7 @@ package pack01.list;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 public class BoardDAO {
 
@@ -22,6 +23,8 @@ public class BoardDAO {
 			System.out.println(dto.getBoardCotent());
 		}
 	}
+	
+	
 	public void intMethod(int x) {
 		System.out.println(x);
 	}

@@ -8,7 +8,6 @@ public class Ex04_ArrayList {
 		//사용빈도가 높음. 배열의 단점을 보완하고 불필요한 체이닝 , 멀티쓰레딩등의 기능이 없기때문에 제일 많이 사용됨
 		//List<E> list = new ArrayList<E>();
 		//ArrayList<E> list = new ArrayList<E>();
-		
 		// String타입을 묶어서 저장 가능한 Collection자료구조 ArrayList를 생성하고 데이터 2건을 추가해보기.
 		List<String> strList = new ArrayList<>();
 		strList.add("str1");
@@ -30,7 +29,8 @@ public class Ex04_ArrayList {
 		//}
 		//                 <=
 		for (int i = 0; i <= strList.size(); i++) {
-			System.out.println(strList.get(i));
+			String str = strList.get(i);
+			System.out.println(str);
 		}
 		for (String str  :  strList) {//" java.lang.IndexOutOfBoundsException: 나올일이없음.
 											  // 요소를 하나씩 해당타입으로 빼주기때문에 for문보다 가독성이 높음.
