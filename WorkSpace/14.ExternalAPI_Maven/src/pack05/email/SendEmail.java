@@ -11,6 +11,7 @@ import org.apache.commons.mail.SimpleEmail;
 
 public class SendEmail {
 	public static void main(String[] args) {
+	
 		
 	}
 	//1. 단순하게 텍스트만 있는 이메일 : SimpleEmail
