@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1> GET과 POST 요청 해보기</h1>
+	<!-- text값을 요청할수있는 폼태그 하나만들고 요청해보기.(Submit)  -->
+	<form action="Ex03_GetPost" ><!-- action:   -->
+		<input type="text" name="txt1" id="txt2" ><!-- name vs id  -->
+		<input type="submit">
+	</form>
+</body>
+</html>

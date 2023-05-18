@@ -1,0 +1,21 @@
+package pack;
+
+import java.io.IOException;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+@WebServlet("/te")
+public class TestServlet extends HttpServlet {
+	// 02프로젝트는 세팅 부분을 혼자 실습하고 , request와 response를 대략적으로 살펴보는 프로젝트로,
+	//다시 공부하거나 할 필요는 많이 없음.
+	
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		System.out.println("TestServlet이 호출되었습니다");
+		response.getWriter().append("Served at: ").append(request.getContextPath());
+	}
+
+
+}

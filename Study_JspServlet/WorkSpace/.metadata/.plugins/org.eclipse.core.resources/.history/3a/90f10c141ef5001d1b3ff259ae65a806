@@ -1,0 +1,13 @@
+package pack.url;
+
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+
+/**
+ * Servlet implementation class Ex02_Servlet
+ */
+@WebServlet("/Ex02_Servlet")
+public class Ex02_Servlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+}
