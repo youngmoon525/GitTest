@@ -9,4 +9,6 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <!-- 05.Mybatis 프로젝트를 myb라는 path로 크롬에서 열어보기.
+  index.jsp파일을 임시로 만들고 해당하는 파일로 판단.   -->
 </web-app>
