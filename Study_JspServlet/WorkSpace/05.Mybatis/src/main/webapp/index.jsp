@@ -46,7 +46,7 @@
 					
 				  -->
 				
-				<li><a href="#">게시판</a></li>
+				<li><a href="afdlkfamlsd.bat">mybatis</a></li>
 			</ul>
 
 

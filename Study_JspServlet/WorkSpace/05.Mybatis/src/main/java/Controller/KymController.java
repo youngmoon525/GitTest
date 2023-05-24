@@ -1,8 +1,13 @@
 package Controller;
 
 import java.io.IOException;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.util.ArrayList;
 
+import javax.naming.spi.DirStateFactory.Result;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -19,14 +24,16 @@ public class KymController extends HttpServlet {
 	@Override
 	protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		System.out.println(req.getServletPath());
+		
+		
 		if (req.getServletPath().equals("/list.kym")) {
 			ArrayList<KymVO> list = new ArrayList<>();
 			// <><- Object를 상속받은 Class타입만 넣을수있음.
 			for (int i = 0; i < 10; i++) {
-				KymVO vo = new KymVO();
-				vo.setField1("필드1" + i);
-				vo.setField2(10 + i);
-				list.add(vo);
+				//KymVO vo = new KymVO();
+			//	vo.setField1("필드1" + i);
+			//	vo.setField2(10 + i);
+			//	list.add(vo);
 			}
 			req.setAttribute("list", list);
 			rd = req.getRequestDispatcher("kym/list.jsp");

@@ -10,12 +10,16 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+
+
 // 어떤글자.js <-로 끝나는 모든것들을 요청받게. => *.js
 @WebServlet("*.js")
 public class JstlController extends HttpServlet {
 	// doGet , doPost <= Spring에서는 default로 두가지가 합쳐진 버전의 메소드를 활용을 한다.
 	// service ( get , post 의 모든 요청을 받는 메소드 )
 	RequestDispatcher rd ;
+
+	
 	@Override
 	protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		System.out.println(req.getServletPath());
